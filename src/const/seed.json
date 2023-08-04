@@ -1,0 +1,1232 @@
+[
+  {
+    "inventory": [
+      {
+        "id": "f55e598b-f3ca-49ae-ac3b-3868a1579c6a",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T23:19:02.746Z",
+        "updated_at": "2023-08-04T02:02:56.006Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b17211f7-a507-4926-9373-41215f1bd930",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-04T01:47:20.514Z",
+        "updated_at": "2023-08-03T21:23:41.075Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "20f5a4ef-bfd1-4fa8-9b8f-f09f98434341",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T20:16:10.144Z",
+        "updated_at": "2023-08-03T20:27:04.882Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "256c9566-3897-42cd-a157-c0c8e7ed7a95",
+        "device_name": "Smartwatch",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T10:41:30.246Z",
+        "updated_at": "2023-08-03T18:38:17.052Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7729eebb-122d-45ae-8a3f-df6a8b36d3dc",
+        "device_name": "Desktop",
+        "status": "Reserved",
+        "created_at": "2023-08-03T07:55:09.429Z",
+        "updated_at": "2023-08-04T07:13:11.957Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "97b71917-9b1d-4f9e-847a-bc4fd575dd60",
+        "created_at": "2023-08-03T12:12:34.335Z",
+        "updated_at": "2023-08-03T13:42:53.006Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f55e598b-f3ca-49ae-ac3b-3868a1579c6a",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "cd4127c9-203d-4e64-91bc-89fe460a62e5",
+        "created_at": "2023-08-03T19:09:14.672Z",
+        "updated_at": "2023-08-03T18:51:04.377Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f55e598b-f3ca-49ae-ac3b-3868a1579c6a",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "0230587a-80a6-4e4a-beed-af39fc60d7b8",
+        "created_at": "2023-08-03T21:39:10.518Z",
+        "updated_at": "2023-08-04T00:47:53.175Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "b17211f7-a507-4926-9373-41215f1bd930",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "39be4c80-f215-495b-9e2a-f4de78303849",
+        "created_at": "2023-08-03T10:07:20.014Z",
+        "updated_at": "2023-08-03T07:59:03.556Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "256c9566-3897-42cd-a157-c0c8e7ed7a95",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "bcc2dcfe-b74c-4c0a-84b1-8c904c1cb65a",
+        "created_at": "2023-08-03T23:32:18.345Z",
+        "updated_at": "2023-08-04T06:34:55.835Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "20f5a4ef-bfd1-4fa8-9b8f-f09f98434341",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "f4afefde-2f2b-4261-a9fd-a7d511193a02",
+        "created_at": "2023-08-03T15:36:50.483Z",
+        "updated_at": "2023-08-03T11:22:37.245Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "20f5a4ef-bfd1-4fa8-9b8f-f09f98434341"
+      },
+      {
+        "id": "41b256d0-78a0-44f8-bfc1-09af0f0f62ff",
+        "created_at": "2023-08-03T14:47:30.103Z",
+        "updated_at": "2023-08-03T08:27:42.024Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "256c9566-3897-42cd-a157-c0c8e7ed7a95"
+      },
+      {
+        "id": "55a481d9-0cd7-4e2c-a22f-ddd997b947a5",
+        "created_at": "2023-08-03T20:25:30.113Z",
+        "updated_at": "2023-08-03T21:21:22.203Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "7729eebb-122d-45ae-8a3f-df6a8b36d3dc"
+      },
+      {
+        "id": "d56ddb00-e51d-4afc-88c7-44a4e254c6f7",
+        "created_at": "2023-08-04T00:17:18.196Z",
+        "updated_at": "2023-08-03T09:22:46.573Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "7729eebb-122d-45ae-8a3f-df6a8b36d3dc"
+      },
+      {
+        "id": "26d33e95-278a-4386-8f4c-0eab437884ac",
+        "created_at": "2023-08-03T18:42:35.363Z",
+        "updated_at": "2023-08-04T04:33:13.531Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "b17211f7-a507-4926-9373-41215f1bd930"
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "5ceb2bd9-00a8-499e-bcb6-4720531f5a62",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T18:05:52.329Z",
+        "updated_at": "2023-08-04T01:30:39.620Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "250fe796-822a-4a0b-8ccb-e443253f6d53",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T19:21:22.633Z",
+        "updated_at": "2023-08-04T02:41:36.882Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ce608d28-5d44-4b77-99ef-9c6e0c121286",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T08:47:05.765Z",
+        "updated_at": "2023-08-03T16:24:50.394Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cc5c894f-ef49-47cb-8982-322c8bb7d74c",
+        "device_name": "Smartwatch",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T22:01:42.886Z",
+        "updated_at": "2023-08-03T20:27:50.876Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0f22da23-079d-4738-bf0c-05a7befa91ef",
+        "device_name": "Desktop",
+        "status": "Reserved",
+        "created_at": "2023-08-03T14:26:32.920Z",
+        "updated_at": "2023-08-03T16:34:32.507Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "143ed8fe-afcd-4f3a-a878-668067646ef9",
+        "created_at": "2023-08-03T13:45:39.638Z",
+        "updated_at": "2023-08-03T20:11:10.740Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "0f22da23-079d-4738-bf0c-05a7befa91ef",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "610b9dca-35fb-4637-819d-4a492b25baa4",
+        "created_at": "2023-08-03T12:11:40.680Z",
+        "updated_at": "2023-08-03T09:02:46.378Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "5ceb2bd9-00a8-499e-bcb6-4720531f5a62",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "23125f19-e030-4002-b9cf-d83dad8e279f",
+        "created_at": "2023-08-04T04:28:01.972Z",
+        "updated_at": "2023-08-03T09:02:23.713Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "ce608d28-5d44-4b77-99ef-9c6e0c121286",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "0e29d95b-d3bf-4154-8637-701742a7d5ec",
+        "created_at": "2023-08-03T08:04:20.219Z",
+        "updated_at": "2023-08-03T19:38:52.121Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "cc5c894f-ef49-47cb-8982-322c8bb7d74c",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "c8c3b385-9510-401c-90f1-a7210b774a7e",
+        "created_at": "2023-08-04T02:22:06.289Z",
+        "updated_at": "2023-08-04T05:50:44.185Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "250fe796-822a-4a0b-8ccb-e443253f6d53",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "a4a026ef-55e9-4969-b2f7-b1ab4124e5d8",
+        "created_at": "2023-08-04T06:29:31.172Z",
+        "updated_at": "2023-08-03T22:25:47.799Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "250fe796-822a-4a0b-8ccb-e443253f6d53"
+      },
+      {
+        "id": "12b7014c-5bc1-418f-9a7d-8d37b8a36b19",
+        "created_at": "2023-08-04T05:33:53.930Z",
+        "updated_at": "2023-08-03T14:25:16.292Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "0f22da23-079d-4738-bf0c-05a7befa91ef"
+      },
+      {
+        "id": "92280111-6416-4c24-886e-c3a8bdd6e45c",
+        "created_at": "2023-08-03T23:44:46.867Z",
+        "updated_at": "2023-08-03T21:53:19.222Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "ce608d28-5d44-4b77-99ef-9c6e0c121286"
+      },
+      {
+        "id": "815563bd-8e22-4eea-9dde-904d5a7221c1",
+        "created_at": "2023-08-03T16:44:42.014Z",
+        "updated_at": "2023-08-04T01:38:59.315Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "250fe796-822a-4a0b-8ccb-e443253f6d53"
+      },
+      {
+        "id": "c33e19b1-f41d-4e31-bb53-cc9cae4718bb",
+        "created_at": "2023-08-03T15:07:20.592Z",
+        "updated_at": "2023-08-03T21:01:13.279Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "cc5c894f-ef49-47cb-8982-322c8bb7d74c"
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "73386190-da8f-4fb5-a440-26e38a782e9b",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-04T03:25:43.309Z",
+        "updated_at": "2023-08-04T04:35:50.946Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ef1e8fb1-6974-4b31-bb73-4f9897aa915b",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T10:57:59.865Z",
+        "updated_at": "2023-08-04T03:56:41.864Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "63aa95d9-ddde-46c6-9e1f-f379fbfc7943",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T11:12:34.125Z",
+        "updated_at": "2023-08-04T04:29:17.181Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "754a628e-e555-40a0-9ae2-5b7becdda9fa",
+        "device_name": "Smartwatch",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T15:50:33.301Z",
+        "updated_at": "2023-08-03T08:18:06.762Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8e4a371b-667b-472c-8197-dd5b514b2194",
+        "device_name": "Desktop",
+        "status": "Reserved",
+        "created_at": "2023-08-03T10:59:34.278Z",
+        "updated_at": "2023-08-03T10:45:31.901Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "d0d17364-4e9a-46ac-b5cd-67dae035189f",
+        "created_at": "2023-08-03T13:48:29.012Z",
+        "updated_at": "2023-08-03T14:23:11.828Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "8e4a371b-667b-472c-8197-dd5b514b2194",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "f9c24eb5-3e36-41b8-926b-4ed863c50682",
+        "created_at": "2023-08-03T17:29:55.232Z",
+        "updated_at": "2023-08-03T22:06:14.648Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "ef1e8fb1-6974-4b31-bb73-4f9897aa915b",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "29910ab2-9614-48d2-a81f-5bcab5c0bf23",
+        "created_at": "2023-08-03T18:58:04.215Z",
+        "updated_at": "2023-08-04T06:20:20.849Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "754a628e-e555-40a0-9ae2-5b7becdda9fa",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "5ba6e8c4-17cd-4e1d-87fa-38febd113689",
+        "created_at": "2023-08-04T01:40:04.112Z",
+        "updated_at": "2023-08-04T05:48:05.015Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "63aa95d9-ddde-46c6-9e1f-f379fbfc7943",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "aa3a90c0-fd6e-4ee1-a1e4-356b17e362ff",
+        "created_at": "2023-08-03T13:41:18.900Z",
+        "updated_at": "2023-08-03T12:25:58.203Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "ef1e8fb1-6974-4b31-bb73-4f9897aa915b",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "4f43c4b8-7fc6-4b83-942a-eada95c88de7",
+        "created_at": "2023-08-03T15:21:24.799Z",
+        "updated_at": "2023-08-04T01:20:34.270Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "63aa95d9-ddde-46c6-9e1f-f379fbfc7943"
+      },
+      {
+        "id": "f53f6cdf-af88-4771-a709-6a70810427b3",
+        "created_at": "2023-08-04T01:57:43.832Z",
+        "updated_at": "2023-08-03T15:29:16.405Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "73386190-da8f-4fb5-a440-26e38a782e9b"
+      },
+      {
+        "id": "09c6bcbc-8244-4ae4-b48d-68320c527744",
+        "created_at": "2023-08-04T02:14:33.230Z",
+        "updated_at": "2023-08-03T10:06:14.554Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "63aa95d9-ddde-46c6-9e1f-f379fbfc7943"
+      },
+      {
+        "id": "a838ef6f-01e8-449d-bcc8-a294cbdee1af",
+        "created_at": "2023-08-04T05:28:50.662Z",
+        "updated_at": "2023-08-03T13:45:12.466Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "ef1e8fb1-6974-4b31-bb73-4f9897aa915b"
+      },
+      {
+        "id": "6986c26f-5953-47b0-b0b6-059346f90819",
+        "created_at": "2023-08-03T08:32:21.649Z",
+        "updated_at": "2023-08-03T16:30:12.694Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "8e4a371b-667b-472c-8197-dd5b514b2194"
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "dc9e934d-754d-41c0-bdd5-36acd6e4c1cd",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T14:06:27.281Z",
+        "updated_at": "2023-08-03T18:38:41.349Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8f1a3bed-3bc9-4366-88a1-557e0d778d50",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T14:10:39.430Z",
+        "updated_at": "2023-08-03T21:07:10.697Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "91559d91-50c6-470e-a706-d5b1320be7c0",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T20:37:44.406Z",
+        "updated_at": "2023-08-04T03:38:12.881Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ee41cbca-49ca-484c-9763-dd320805be00",
+        "device_name": "Smartwatch",
+        "status": "Out of Stock",
+        "created_at": "2023-08-04T07:22:43.380Z",
+        "updated_at": "2023-08-04T02:54:31.214Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f7dfced2-9b42-48c5-bd6e-95305a7cd979",
+        "device_name": "Desktop",
+        "status": "Damaged",
+        "created_at": "2023-08-04T02:34:51.185Z",
+        "updated_at": "2023-08-04T05:59:38.883Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "cdacc464-9842-404e-a459-057c95f86313",
+        "created_at": "2023-08-03T19:20:51.327Z",
+        "updated_at": "2023-08-03T09:18:42.155Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f7dfced2-9b42-48c5-bd6e-95305a7cd979",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "88b591f6-66e2-4105-a62f-a5ffce089c8a",
+        "created_at": "2023-08-04T04:29:04.180Z",
+        "updated_at": "2023-08-03T11:10:00.076Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "dc9e934d-754d-41c0-bdd5-36acd6e4c1cd",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "f6fb8a8c-dd8a-4416-ad6d-6eff1af0f98f",
+        "created_at": "2023-08-03T14:46:33.927Z",
+        "updated_at": "2023-08-04T01:21:35.466Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "dc9e934d-754d-41c0-bdd5-36acd6e4c1cd",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "1cc82260-beec-44b2-8b49-f54d9cd91015",
+        "created_at": "2023-08-04T00:28:40.298Z",
+        "updated_at": "2023-08-03T13:53:34.392Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "8f1a3bed-3bc9-4366-88a1-557e0d778d50",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "9b4cbf9c-5ab9-4d0d-8290-783c03bfec9e",
+        "created_at": "2023-08-04T02:41:48.859Z",
+        "updated_at": "2023-08-03T13:21:48.045Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "91559d91-50c6-470e-a706-d5b1320be7c0",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "6eb9f9a6-319f-4d54-b91a-4930fa47a6b0",
+        "created_at": "2023-08-03T15:12:46.015Z",
+        "updated_at": "2023-08-03T22:16:25.820Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f7dfced2-9b42-48c5-bd6e-95305a7cd979"
+      },
+      {
+        "id": "deeb7778-98e2-487d-8490-122c9b4e2069",
+        "created_at": "2023-08-03T16:42:04.902Z",
+        "updated_at": "2023-08-03T17:18:45.827Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "ee41cbca-49ca-484c-9763-dd320805be00"
+      },
+      {
+        "id": "290441b6-0fdb-4158-9fd5-e655dd207467",
+        "created_at": "2023-08-03T23:09:23.986Z",
+        "updated_at": "2023-08-04T06:26:31.622Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "8f1a3bed-3bc9-4366-88a1-557e0d778d50"
+      },
+      {
+        "id": "2a81050c-e189-4a82-92f4-a8cfbcc73f8c",
+        "created_at": "2023-08-04T05:48:46.406Z",
+        "updated_at": "2023-08-04T07:17:07.322Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f7dfced2-9b42-48c5-bd6e-95305a7cd979"
+      },
+      {
+        "id": "757ab01c-b28a-4448-8be2-85627dce7119",
+        "created_at": "2023-08-04T02:47:50.543Z",
+        "updated_at": "2023-08-03T14:32:28.462Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "8f1a3bed-3bc9-4366-88a1-557e0d778d50"
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "a9f979e7-d0bb-4b81-be7b-84103ef4d0bc",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T18:18:34.561Z",
+        "updated_at": "2023-08-04T00:54:04.949Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "aa992671-260d-4bb6-9032-27796fd45171",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T16:46:18.786Z",
+        "updated_at": "2023-08-03T17:37:47.289Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0855784f-ec58-456e-b435-768e35060747",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T15:34:46.071Z",
+        "updated_at": "2023-08-03T12:46:53.667Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b5671aa9-95cd-45d6-ae8e-2db6b1f13ee4",
+        "device_name": "Smartwatch",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T21:50:47.831Z",
+        "updated_at": "2023-08-03T19:49:26.457Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "15f4e828-792c-4793-8ab9-f58c2eab6b39",
+        "device_name": "Desktop",
+        "status": "Damaged",
+        "created_at": "2023-08-04T05:49:05.270Z",
+        "updated_at": "2023-08-04T02:24:39.762Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "6ca229ac-a3c9-4aab-a718-274b4734a258",
+        "created_at": "2023-08-03T21:59:10.357Z",
+        "updated_at": "2023-08-04T02:00:06.765Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "a9f979e7-d0bb-4b81-be7b-84103ef4d0bc",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "cdd21154-eecb-4b7a-8e77-b26aae8f8df9",
+        "created_at": "2023-08-03T14:03:19.511Z",
+        "updated_at": "2023-08-03T13:36:30.404Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "0855784f-ec58-456e-b435-768e35060747",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "8c7d8f6c-b681-421e-96b0-4627aafdcbba",
+        "created_at": "2023-08-03T15:04:16.665Z",
+        "updated_at": "2023-08-03T18:26:52.004Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "15f4e828-792c-4793-8ab9-f58c2eab6b39",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "1569b58c-e9eb-4848-b151-e0757b0493ec",
+        "created_at": "2023-08-04T04:33:01.996Z",
+        "updated_at": "2023-08-04T04:29:15.245Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "aa992671-260d-4bb6-9032-27796fd45171",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "80867b2e-23fa-4ed1-aaec-4dc87d656d3c",
+        "created_at": "2023-08-03T14:17:03.141Z",
+        "updated_at": "2023-08-03T21:54:24.759Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "0855784f-ec58-456e-b435-768e35060747",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "40207495-be3e-4e3b-9f4b-375bdc46a723",
+        "created_at": "2023-08-03T14:36:25.788Z",
+        "updated_at": "2023-08-04T04:19:15.723Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "0855784f-ec58-456e-b435-768e35060747"
+      },
+      {
+        "id": "b78cef44-f6dc-4bb1-9fc5-8721c64f0843",
+        "created_at": "2023-08-03T10:32:51.314Z",
+        "updated_at": "2023-08-03T16:13:12.330Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "aa992671-260d-4bb6-9032-27796fd45171"
+      },
+      {
+        "id": "89d0da83-911d-4541-a10e-ee3f702131ea",
+        "created_at": "2023-08-03T11:23:36.522Z",
+        "updated_at": "2023-08-03T09:53:21.984Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "a9f979e7-d0bb-4b81-be7b-84103ef4d0bc"
+      },
+      {
+        "id": "87b3a6aa-2245-4978-ba82-2f10eaedd797",
+        "created_at": "2023-08-03T20:31:50.869Z",
+        "updated_at": "2023-08-04T06:53:03.556Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "a9f979e7-d0bb-4b81-be7b-84103ef4d0bc"
+      },
+      {
+        "id": "c7a267dc-43b1-4245-a31d-a5db6712a832",
+        "created_at": "2023-08-04T02:52:05.257Z",
+        "updated_at": "2023-08-04T06:38:02.252Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "0855784f-ec58-456e-b435-768e35060747"
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "b68dd318-fcdd-42bc-8843-e957df7bb713",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T08:31:40.173Z",
+        "updated_at": "2023-08-03T10:56:07.509Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1a0f7327-c68b-48d7-a019-57d8d22bb59f",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-04T01:27:41.312Z",
+        "updated_at": "2023-08-04T07:30:21.363Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fe1e57b2-dad7-4be4-a704-d5eacbbdf0b6",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T11:00:48.253Z",
+        "updated_at": "2023-08-03T11:10:12.966Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7668f0ef-0e85-443d-8f87-c657b66a05c7",
+        "device_name": "Smartwatch",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T16:51:50.519Z",
+        "updated_at": "2023-08-03T19:51:36.881Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "29cd8a69-c006-4bb1-a08c-f80938703788",
+        "device_name": "Desktop",
+        "status": "Reserved",
+        "created_at": "2023-08-03T16:15:58.872Z",
+        "updated_at": "2023-08-03T22:40:37.441Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "b033a9fa-5d6b-40b0-9315-4c4af8374f64",
+        "created_at": "2023-08-03T21:06:36.307Z",
+        "updated_at": "2023-08-03T21:17:59.720Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "7668f0ef-0e85-443d-8f87-c657b66a05c7",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "82faef2c-9123-48df-bfdf-66db39869c25",
+        "created_at": "2023-08-03T08:21:29.691Z",
+        "updated_at": "2023-08-04T00:49:52.800Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "fe1e57b2-dad7-4be4-a704-d5eacbbdf0b6",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "6f00e139-56da-4f95-bc63-28aeb761dda3",
+        "created_at": "2023-08-04T07:15:52.149Z",
+        "updated_at": "2023-08-03T13:13:05.092Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "1a0f7327-c68b-48d7-a019-57d8d22bb59f",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "87f187b3-182b-4362-86bc-9854653eb2b7",
+        "created_at": "2023-08-04T06:41:57.501Z",
+        "updated_at": "2023-08-03T08:24:41.736Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "fe1e57b2-dad7-4be4-a704-d5eacbbdf0b6",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "936d930c-6548-4f45-93ba-1593d9079671",
+        "created_at": "2023-08-04T00:51:33.299Z",
+        "updated_at": "2023-08-04T02:20:36.246Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "b68dd318-fcdd-42bc-8843-e957df7bb713",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "a8f1581d-0170-4997-a1c0-7ce8736f9ed2",
+        "created_at": "2023-08-04T05:00:05.081Z",
+        "updated_at": "2023-08-03T20:01:36.168Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "b68dd318-fcdd-42bc-8843-e957df7bb713"
+      },
+      {
+        "id": "f07e2abb-dbca-47ec-a3c6-c09a5774fca8",
+        "created_at": "2023-08-03T21:47:52.379Z",
+        "updated_at": "2023-08-04T00:52:47.306Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "29cd8a69-c006-4bb1-a08c-f80938703788"
+      },
+      {
+        "id": "a9ce9c5c-00f0-4318-a560-0b9f850d514a",
+        "created_at": "2023-08-03T12:09:53.197Z",
+        "updated_at": "2023-08-04T00:56:10.034Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "b68dd318-fcdd-42bc-8843-e957df7bb713"
+      },
+      {
+        "id": "1986bc9c-9447-4ff4-acf1-0fd5200ed6c4",
+        "created_at": "2023-08-04T05:49:10.177Z",
+        "updated_at": "2023-08-03T17:24:10.560Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "fe1e57b2-dad7-4be4-a704-d5eacbbdf0b6"
+      },
+      {
+        "id": "ac613266-b951-477f-98b8-436e2bd6b7c8",
+        "created_at": "2023-08-03T23:36:39.010Z",
+        "updated_at": "2023-08-04T05:51:07.982Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "b68dd318-fcdd-42bc-8843-e957df7bb713"
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "66610e78-9da1-422e-9871-4ebb54e1132d",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T23:01:32.056Z",
+        "updated_at": "2023-08-03T13:26:50.580Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "211109e7-c648-4fe8-ba97-fb19d194d236",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-04T04:42:35.068Z",
+        "updated_at": "2023-08-03T13:55:16.555Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a89e28d9-131c-46c9-b750-5862828a8ab5",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T03:29:44.111Z",
+        "updated_at": "2023-08-03T11:11:17.309Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "661178d3-f7e0-4ae0-994e-4d6efa133107",
+        "device_name": "Smartwatch",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T10:44:11.733Z",
+        "updated_at": "2023-08-03T23:37:57.244Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dd62a15b-f8d3-48ac-85fd-dde850786b72",
+        "device_name": "Desktop",
+        "status": "Reserved",
+        "created_at": "2023-08-03T21:46:58.781Z",
+        "updated_at": "2023-08-04T00:05:37.439Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "f372b74d-053a-43c5-ad3b-6ce088c0ac6a",
+        "created_at": "2023-08-03T15:35:21.644Z",
+        "updated_at": "2023-08-03T09:56:22.806Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "66610e78-9da1-422e-9871-4ebb54e1132d",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "24ba6eae-d4b4-4702-b32f-8ca47b2d36b9",
+        "created_at": "2023-08-03T22:02:03.009Z",
+        "updated_at": "2023-08-03T16:13:34.003Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "66610e78-9da1-422e-9871-4ebb54e1132d",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "397b48c2-1dcc-49de-af60-60b300123b58",
+        "created_at": "2023-08-03T18:46:21.635Z",
+        "updated_at": "2023-08-04T05:10:09.870Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "dd62a15b-f8d3-48ac-85fd-dde850786b72",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "2e213171-a18b-4098-bb9d-92b381e38295",
+        "created_at": "2023-08-03T19:14:06.450Z",
+        "updated_at": "2023-08-03T23:56:23.611Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "661178d3-f7e0-4ae0-994e-4d6efa133107",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "69e58b4f-6f7b-4a3d-8065-53ef0b7d302e",
+        "created_at": "2023-08-03T22:18:41.537Z",
+        "updated_at": "2023-08-04T01:53:13.083Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "211109e7-c648-4fe8-ba97-fb19d194d236",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "202b1e83-7c6c-443e-addf-4adf946062e8",
+        "created_at": "2023-08-03T10:58:37.605Z",
+        "updated_at": "2023-08-03T17:50:36.068Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "211109e7-c648-4fe8-ba97-fb19d194d236"
+      },
+      {
+        "id": "76e907b3-dba1-4518-b669-a7d9bacb19d6",
+        "created_at": "2023-08-03T09:20:17.604Z",
+        "updated_at": "2023-08-03T07:51:04.224Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "dd62a15b-f8d3-48ac-85fd-dde850786b72"
+      },
+      {
+        "id": "c2301aa1-7fa1-4654-a897-dd5b00e13a6f",
+        "created_at": "2023-08-03T12:45:53.402Z",
+        "updated_at": "2023-08-03T23:52:20.395Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "661178d3-f7e0-4ae0-994e-4d6efa133107"
+      },
+      {
+        "id": "97792f54-0e8e-427d-9da2-45e370407484",
+        "created_at": "2023-08-04T07:21:35.523Z",
+        "updated_at": "2023-08-03T22:16:00.270Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "661178d3-f7e0-4ae0-994e-4d6efa133107"
+      },
+      {
+        "id": "84032e04-e4a2-4075-a3b3-236cb9a0880e",
+        "created_at": "2023-08-03T19:11:36.067Z",
+        "updated_at": "2023-08-03T19:28:33.073Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "dd62a15b-f8d3-48ac-85fd-dde850786b72"
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "cefd07e3-9f83-496e-8a04-eb63a6144e3b",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T23:42:32.678Z",
+        "updated_at": "2023-08-03T21:44:01.829Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "52be9a54-f4c4-4821-a1c4-0d29e4dbe398",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T11:06:40.278Z",
+        "updated_at": "2023-08-03T10:20:11.044Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "019aef39-eed3-4bc0-80a5-3590eb03f7f3",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T12:33:41.185Z",
+        "updated_at": "2023-08-03T10:16:18.019Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "41f786d6-f7c5-4189-8e5d-8b0b04d13fa2",
+        "device_name": "Smartwatch",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T12:37:32.630Z",
+        "updated_at": "2023-08-04T04:41:57.217Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "eadf6adf-24d7-41ba-8849-19cad2a5222a",
+        "device_name": "Desktop",
+        "status": "Reserved",
+        "created_at": "2023-08-04T07:29:06.214Z",
+        "updated_at": "2023-08-03T11:23:06.620Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "41373981-7de5-4e96-b583-91f97d3b7e59",
+        "created_at": "2023-08-03T14:23:21.204Z",
+        "updated_at": "2023-08-03T09:12:51.106Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "cefd07e3-9f83-496e-8a04-eb63a6144e3b",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "a79f0094-cd68-4db8-9b24-5e58fecc0492",
+        "created_at": "2023-08-03T11:23:31.497Z",
+        "updated_at": "2023-08-03T22:56:44.803Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "41f786d6-f7c5-4189-8e5d-8b0b04d13fa2",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "f3da8b35-74ad-4058-923d-25029d7efdec",
+        "created_at": "2023-08-04T04:44:51.118Z",
+        "updated_at": "2023-08-04T04:20:13.643Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "cefd07e3-9f83-496e-8a04-eb63a6144e3b",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "254293bd-128f-499f-8deb-9ca7c4b6c474",
+        "created_at": "2023-08-03T13:51:18.999Z",
+        "updated_at": "2023-08-03T22:59:09.124Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "52be9a54-f4c4-4821-a1c4-0d29e4dbe398",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "727ed10c-5182-4a46-b1d5-7f6dc1338a92",
+        "created_at": "2023-08-03T08:30:20.251Z",
+        "updated_at": "2023-08-03T21:27:21.708Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "41f786d6-f7c5-4189-8e5d-8b0b04d13fa2",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "f8606a47-fd13-4cac-8fb0-263ebfc51571",
+        "created_at": "2023-08-03T22:06:20.719Z",
+        "updated_at": "2023-08-03T21:17:21.647Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "52be9a54-f4c4-4821-a1c4-0d29e4dbe398"
+      },
+      {
+        "id": "bcbf47de-721a-4764-946e-4e8c3127f02a",
+        "created_at": "2023-08-03T09:27:29.239Z",
+        "updated_at": "2023-08-03T18:14:09.948Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "52be9a54-f4c4-4821-a1c4-0d29e4dbe398"
+      },
+      {
+        "id": "59b8d6b1-68dd-4315-91ef-76200d69e1d2",
+        "created_at": "2023-08-03T18:44:56.277Z",
+        "updated_at": "2023-08-03T19:52:52.688Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "eadf6adf-24d7-41ba-8849-19cad2a5222a"
+      },
+      {
+        "id": "eec712da-5151-4fc1-8119-58e894a6d8c3",
+        "created_at": "2023-08-03T10:58:36.176Z",
+        "updated_at": "2023-08-03T19:30:24.027Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "019aef39-eed3-4bc0-80a5-3590eb03f7f3"
+      },
+      {
+        "id": "2c27f152-d388-405d-b1d1-af694e05f12c",
+        "created_at": "2023-08-03T20:47:02.535Z",
+        "updated_at": "2023-08-03T20:32:29.720Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "eadf6adf-24d7-41ba-8849-19cad2a5222a"
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "d7da2f2f-8101-4353-9bb0-26547859a4a1",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T18:49:43.118Z",
+        "updated_at": "2023-08-03T21:27:06.763Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2cf9a16e-29c2-40b1-9718-fd3334a551d0",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T21:34:29.784Z",
+        "updated_at": "2023-08-03T14:25:37.431Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "347c8fda-814c-4699-98d7-fcb80f56fff6",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T14:23:49.921Z",
+        "updated_at": "2023-08-04T00:27:24.009Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3bfca636-47f5-4fa0-b5f3-2b973b0df19b",
+        "device_name": "Smartwatch",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T13:36:07.288Z",
+        "updated_at": "2023-08-04T01:45:24.717Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7b624a51-1efe-417e-87df-d8cabec8453c",
+        "device_name": "Desktop",
+        "status": "Reserved",
+        "created_at": "2023-08-03T15:29:37.399Z",
+        "updated_at": "2023-08-03T20:02:20.597Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "86f43650-09c6-4b3d-adf8-efb9a0dd2d61",
+        "created_at": "2023-08-03T23:24:51.444Z",
+        "updated_at": "2023-08-04T04:52:04.410Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "347c8fda-814c-4699-98d7-fcb80f56fff6",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "ce947909-10bd-44a4-aec3-033e41bc1a16",
+        "created_at": "2023-08-04T05:20:36.588Z",
+        "updated_at": "2023-08-03T17:13:42.825Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "d7da2f2f-8101-4353-9bb0-26547859a4a1",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "f20bdaa7-b97c-48db-9000-9ea3e51e0741",
+        "created_at": "2023-08-03T23:11:16.589Z",
+        "updated_at": "2023-08-03T15:58:29.649Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "d7da2f2f-8101-4353-9bb0-26547859a4a1",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "5ba17f6a-0cfd-48c5-92da-67c000308b40",
+        "created_at": "2023-08-04T03:08:28.187Z",
+        "updated_at": "2023-08-03T23:33:57.310Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "3bfca636-47f5-4fa0-b5f3-2b973b0df19b",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "1020c37b-913d-497b-a470-e1615bf637a9",
+        "created_at": "2023-08-04T00:32:40.393Z",
+        "updated_at": "2023-08-04T02:12:32.347Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "3bfca636-47f5-4fa0-b5f3-2b973b0df19b",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "cc084e6d-895b-4da8-8178-1994e7112f7a",
+        "created_at": "2023-08-03T07:32:24.637Z",
+        "updated_at": "2023-08-04T07:21:00.023Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "7b624a51-1efe-417e-87df-d8cabec8453c"
+      },
+      {
+        "id": "e7190e3b-a806-4196-95e1-a5532ad02305",
+        "created_at": "2023-08-04T04:16:31.207Z",
+        "updated_at": "2023-08-04T04:52:04.996Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "3bfca636-47f5-4fa0-b5f3-2b973b0df19b"
+      },
+      {
+        "id": "73157f26-87ec-4e95-a200-3181e5eb5615",
+        "created_at": "2023-08-04T07:14:58.788Z",
+        "updated_at": "2023-08-03T14:28:04.967Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "7b624a51-1efe-417e-87df-d8cabec8453c"
+      },
+      {
+        "id": "2e21411c-8fe7-4c5c-9eb4-c0058e0c6b44",
+        "created_at": "2023-08-04T04:25:22.057Z",
+        "updated_at": "2023-08-03T19:27:32.101Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "3bfca636-47f5-4fa0-b5f3-2b973b0df19b"
+      },
+      {
+        "id": "a42b1997-dfc6-4dcd-8df0-ec33e91113e3",
+        "created_at": "2023-08-03T08:30:02.720Z",
+        "updated_at": "2023-08-03T09:26:29.128Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "347c8fda-814c-4699-98d7-fcb80f56fff6"
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "f2bec030-8d1e-4bcf-92d5-378b0a33a907",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-04T06:05:55.365Z",
+        "updated_at": "2023-08-04T06:05:25.913Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a44ee623-9eec-4b4e-9153-b88a097cb3ec",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T22:56:47.705Z",
+        "updated_at": "2023-08-03T20:32:42.979Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b0ec5904-41dc-4f98-a155-2882b08a1719",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T05:49:54.016Z",
+        "updated_at": "2023-08-04T07:04:22.125Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4b9e6e6e-a327-46eb-b83d-01eddbd7e349",
+        "device_name": "Smartwatch",
+        "status": "Out of Stock",
+        "created_at": "2023-08-04T04:41:41.885Z",
+        "updated_at": "2023-08-03T16:52:43.128Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "edd7d65f-9d76-4925-9c0c-7fa3efc9abbf",
+        "device_name": "Desktop",
+        "status": "Reserved",
+        "created_at": "2023-08-04T03:06:00.381Z",
+        "updated_at": "2023-08-03T10:44:51.700Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "36523a8f-e4e0-4c25-bef8-261b8d4e4b13",
+        "created_at": "2023-08-03T10:15:50.497Z",
+        "updated_at": "2023-08-04T04:02:15.426Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f2bec030-8d1e-4bcf-92d5-378b0a33a907",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "b9738823-dd77-456d-ac5b-555102bc7fca",
+        "created_at": "2023-08-04T01:32:39.029Z",
+        "updated_at": "2023-08-03T11:07:17.473Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f2bec030-8d1e-4bcf-92d5-378b0a33a907",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "721d236a-7f27-4ed5-9126-3244b55b6b32",
+        "created_at": "2023-08-03T08:08:37.380Z",
+        "updated_at": "2023-08-03T19:42:56.328Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "edd7d65f-9d76-4925-9c0c-7fa3efc9abbf",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "a63d9a42-c838-4123-8a9a-9762bb063ae2",
+        "created_at": "2023-08-03T11:30:57.178Z",
+        "updated_at": "2023-08-04T07:04:35.310Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "edd7d65f-9d76-4925-9c0c-7fa3efc9abbf",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "214aa44e-0195-414c-83c7-6f27116605b7",
+        "created_at": "2023-08-04T05:55:58.941Z",
+        "updated_at": "2023-08-03T14:26:44.193Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f2bec030-8d1e-4bcf-92d5-378b0a33a907",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "ce039931-5ca4-4116-83ea-fbd8e9f3adf6",
+        "created_at": "2023-08-03T23:36:39.510Z",
+        "updated_at": "2023-08-03T18:08:18.630Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f2bec030-8d1e-4bcf-92d5-378b0a33a907"
+      },
+      {
+        "id": "09274398-3070-443d-8387-f1144bd5e052",
+        "created_at": "2023-08-03T10:10:38.070Z",
+        "updated_at": "2023-08-03T17:28:58.284Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f2bec030-8d1e-4bcf-92d5-378b0a33a907"
+      },
+      {
+        "id": "901f968a-0969-4e8b-86a0-bc558550e2f3",
+        "created_at": "2023-08-03T10:40:33.983Z",
+        "updated_at": "2023-08-03T19:46:28.827Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "edd7d65f-9d76-4925-9c0c-7fa3efc9abbf"
+      },
+      {
+        "id": "db596e5b-8209-45ee-ae1e-e1b98c2f5d9c",
+        "created_at": "2023-08-04T04:49:16.261Z",
+        "updated_at": "2023-08-04T00:35:28.807Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "b0ec5904-41dc-4f98-a155-2882b08a1719"
+      },
+      {
+        "id": "b969fdc9-13e1-4bf5-8ee2-24c80db8b6aa",
+        "created_at": "2023-08-03T18:15:37.610Z",
+        "updated_at": "2023-08-03T10:49:42.108Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "edd7d65f-9d76-4925-9c0c-7fa3efc9abbf"
+      }
+    ]
+  }
+]
